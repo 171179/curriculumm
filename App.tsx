@@ -40,11 +40,11 @@ const App: React.FC = () => {
           </div>
           
           <div className="flex flex-col items-center justify-center gap-2 mb-2">
-            <div className="bg-gradient-to-br from-indigo-500 to-purple-600 p-2 rounded-xl shadow-lg animate-pulse mb-2">
+            {/*<div className="bg-gradient-to-br from-indigo-500 to-purple-600 p-2 rounded-xl shadow-lg animate-pulse mb-2">
                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-yellow-400 fill-current" viewBox="0 0 24 24">
                   <path d="M13 10V3L4 14h7v7l9-11h-7z" />
                </svg>
-            </div>
+            </div>*/}
             <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight drop-shadow-md">
               {personalInfo.name}
             </h1>
