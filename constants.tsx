@@ -9,8 +9,8 @@ export const RESUME_DATA: ResumeData = {
     phones: ["+55 11 93500-2163", "+55 11 97048-0694"],
     location: "São Paulo, SP",
     bio: "Formado em Administração com ênfase em Sistemas de Informação pela FIAP. Com mais de 13 anos de experiência em tecnologia, possuo uma trajetória sólida como Analista de Suporte Sênior e Infraestrutura Pleno, evoluindo para o desenvolvimento júnior em linguagens como C#, Ruby on Rails e PHP. Atualmente focado em desenvolvimento Mobile e Games com Unity3D.",
-    // Link direto para o arquivo bruto no repositório curriculumm
-    avatar: "https://raw.githubusercontent.com/171179/curriculumm/main/Foto-Perfil.png",
+    // Este formato ?raw=true força o GitHub a entregar a imagem pura
+    avatar: "https://github.com/171179/curriculumm/blob/main/Foto-Perfil.png?raw=true",
     languages: ["Português (Nativo)", "Inglês (Estudando)"],
     social: {
       linkedin: "https://www.linkedin.com/in/darlandelmondes/",
