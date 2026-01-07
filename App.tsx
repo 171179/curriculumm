@@ -40,7 +40,6 @@ const App: React.FC = () => {
           </div>
           
           <div className="flex flex-col items-center justify-center gap-2 mb-2">
-            {/* Ícone de Raio removido/comentado conforme solicitado */}
             <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight drop-shadow-md">
               {personalInfo.name}
             </h1>
@@ -128,7 +127,7 @@ const App: React.FC = () => {
           </div>
 
           {/* Coluna Direita */}
-          <div className="lg:col-span-8 space-y-10 pt-6">
+          <div className="lg:col-span-8 space-y-10 pt-24">
             {/* Experiências */}
             <section>
               <SectionTitle title="Experiências Profissionais" />
