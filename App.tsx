@@ -22,11 +22,18 @@ const App: React.FC = () => {
         </div>
         <div className="container mx-auto px-4 relative z-10 text-center text-white">
           <div className="mb-6 inline-block">
-            <img 
-              src={personalInfo.avatar} 
-              alt={personalInfo.name} 
-              className="w-40 h-40 rounded-full border-4 border-white/30 shadow-2xl mx-auto object-cover bg-teal-800"
-            />
+            <div className="w-40 h-40 rounded-full border-4 border-white/30 shadow-2xl mx-auto overflow-hidden bg-slate-200">
+              <img 
+                src={personalInfo.avatar} 
+                alt={personalInfo.name} 
+                className="w-full h-full object-cover"
+                onError={(e) => {
+                  console.error("Erro ao carregar imagem de perfil");
+                  // Fallback para uma imagem de placeholder caso falte algo
+                  (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(personalInfo.name)}&background=0D9488&color=fff&size=160`;
+                }}
+              />
+            </div>
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-2 tracking-tight">
             {personalInfo.name}
