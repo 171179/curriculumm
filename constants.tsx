@@ -20,7 +20,7 @@ export const RESUME_DATA: ResumeData = {
   },
   experiences: [
     {
-      company: "Arklok (www.arklok.com.br)",
+      company: "Arklok - FULL OUTSOURCING DE TI DO BRASIL",
       role: "Analista de Infraestrutura Pleno",
       period: "Outubro de 2024 - Atual",
       description: [
