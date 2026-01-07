@@ -1,0 +1,7 @@
+{
+  "name": "Professional Interactive CV",
+  "description": "A modern, high-performance curriculum vitae with an integrated AI assistant to help recruiters learn more about your profile.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
