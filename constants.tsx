@@ -9,7 +9,6 @@ export const RESUME_DATA: ResumeData = {
     phones: ["+55 11 93500-2163", "+55 11 97048-0694"],
     location: "São Paulo, SP",
     bio: "Formado em Administração com ênfase em Sistemas de Informação pela FIAP. Com mais de 13 anos de experiência em tecnologia, possuo uma trajetória sólida como Analista de Suporte Sênior e Infraestrutura Pleno, evoluindo para o desenvolvimento júnior em linguagens como C#, Ruby on Rails e PHP. Atualmente focado em desenvolvimento Mobile e Games com Unity3D.",
-    // Este formato ?raw=true força o GitHub a entregar a imagem pura
     avatar: "https://github.com/171179/curriculumm/blob/main/Foto-Perfil.png?raw=true",
     languages: ["Português (Nativo)", "Inglês (Estudando)"],
     social: {
@@ -114,7 +113,7 @@ export const RESUME_DATA: ResumeData = {
   education: [
     {
       institution: "FIAP - Fac. de Informática e Adm. Paulista",
-      degree: "Bacharel em Administração de Empresas (Sistemas de Informação)",
+      degree: "Bacharel em Administração (Sistemas de Informação)",
       year: "Concluído"
     },
     {
@@ -124,7 +123,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       institution: "Green Treinamentos",
-      degree: "MCP - Managing & Maintaining Microsoft Windows Server 2003",
+      degree: "MCP - Microsoft Certified Professional",
       year: "Certificação"
     },
     {
